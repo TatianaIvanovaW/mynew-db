@@ -8,7 +8,7 @@ module.exports = {
         {
           name: "Tati",
           email: "ivanova.tatiana.w@gmail.com",
-          phone: 1234567,
+          phone: 311234567,
           password: "test",
           createdAt: new Date(),
           updatedAt: new Date(),
@@ -16,8 +16,16 @@ module.exports = {
         {
           name: "Lucy",
           email: "lucythecatt2019@gmail.com",
-          phone: 1234567,
-          password: "test",
+          phone: 31245611,
+          password: "meowmeow",
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          name: "Max",
+          email: "max@gmail.com",
+          phone: 31684630400,
+          password: "maxmax",
           createdAt: new Date(),
           updatedAt: new Date(),
         },

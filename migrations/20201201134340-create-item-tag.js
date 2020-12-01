@@ -1,30 +1,30 @@
-"use strict";
+'use strict';
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    await queryInterface.createTable("toDoItems", {
+    await queryInterface.createTable('itemTags', {
       id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
-        type: Sequelize.INTEGER,
+        type: Sequelize.INTEGER
       },
-      task: {
-        type: Sequelize.STRING,
+      todoItemId: {
+        type: Sequelize.INTEGER
       },
-      deadline: {
-        type: Sequelize.STRING,
+      tagId: {
+        type: Sequelize.INTEGER
       },
       createdAt: {
         allowNull: false,
-        type: Sequelize.DATE,
+        type: Sequelize.DATE
       },
       updatedAt: {
         allowNull: false,
-        type: Sequelize.DATE,
-      },
+        type: Sequelize.DATE
+      }
     });
   },
   down: async (queryInterface, Sequelize) => {
-    await queryInterface.dropTable("toDoItems");
-  },
+    await queryInterface.dropTable('itemTags');
+  }
 };
