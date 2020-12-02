@@ -1,7 +1,18 @@
 {
   "development": {
-    "url": "postgres://izvmnnfp:i29PIjGfxA4uBpQB-VMu5gRhoS9RgeiY@hattie.db.elephantsql.com:5432/izvmnnfp",
+    "user": "inbqenyhobdopz",
+    "password": "f2e0b68c5b6464ca32e9729eabdda553ea2d0c2665653ea8f391f2e33dcc3ff6",
+    "database": "dd7f7iq827bld0",
+    "port": 5432,
+    "host": "ec2-52-31-233-101.eu-west-1.compute.amazonaws.com",
+    "ssl": true,
     "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    },
     "operatorsAliases": "0"
   },
   "test": {
